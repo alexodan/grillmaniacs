@@ -12,6 +12,7 @@ const Layout = ({ children }) => (
         margin: 2rem auto;
         max-width: 550px;
       `}
+      className="container"
     >
       {children}
     </main>

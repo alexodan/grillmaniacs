@@ -8,7 +8,6 @@ export const GlobalStyles = css`
   }
   html,
   body {
-    margin: 0;
     color: #555;
     font-family: "Quicksand", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
       "Segoe UI Symbol";
