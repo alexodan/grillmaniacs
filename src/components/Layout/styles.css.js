@@ -1,7 +1,7 @@
-import { css } from "@emotion/react";
 import "@fontsource/quicksand";
+import styled from "styled-components";
 
-export const GlobalStyles = css`
+export const GlobalStyles = styled.div`
   * {
     box-sizing: border-box;
     margin: 0;

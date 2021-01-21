@@ -1,19 +1,20 @@
 import React from "react";
+import styled from "styled-components";
 import Card from "../Card";
-import { css } from "@emotion/react";
 
-const Grid = css`
+export const StyledGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 `;
 
 const CardsGrid = ({ items }) => {
   return (
-    <Grid>
+    // flex flex-fluid columns-3
+    <StyledGrid>
       {items.map(grill => (
         <Card key={grill.id} {...grill} />
       ))}
-    </Grid>
+    </StyledGrid>
   );
 };
 

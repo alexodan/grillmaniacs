@@ -4,7 +4,8 @@ const TextContainer = ({ title, paragraphs, children }) => {
   return (
     <div>
       <h2>{title}</h2>
-      {paragraphs && paragraphs.map(paragrap => <p>{paragrap}</p>)}
+      {paragraphs &&
+        paragraphs.map((paragrap, idx) => <p key={idx}>{paragrap}</p>)}
       {children}
     </div>
   );

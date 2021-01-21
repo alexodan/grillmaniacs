@@ -1,22 +1,12 @@
 import React from "react";
 import TopMenu from "../TopMenu";
-import { Global, css } from "@emotion/react";
 import { GlobalStyles } from "./styles.css";
 
 const Layout = ({ children }) => (
-  <>
-    <Global styles={GlobalStyles} />
+  <GlobalStyles>
     <TopMenu />
-    <main
-      css={css`
-        margin: 2rem auto;
-        max-width: 550px;
-      `}
-      className="container"
-    >
-      {children}
-    </main>
-  </>
+    <div className="container mx-auto p-4">{children}</div>
+  </GlobalStyles>
 );
 
 export default Layout;

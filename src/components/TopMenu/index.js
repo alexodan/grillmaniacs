@@ -6,7 +6,7 @@ import { Colors } from "../../colors";
 const TopMenu = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
-      <div className="container">
+      <div className="container mx-auto">
         <Navbar.Brand>
           <Nav.Link as={Link} to="/" style={{ color: Colors.White }}>
             Muscle Builders
