@@ -9,7 +9,6 @@ export const StyledGrid = styled.div`
 
 const CardsGrid = ({ items }) => {
   return (
-    // flex flex-fluid columns-3
     <StyledGrid>
       {items.map(grill => (
         <Card key={grill.id} {...grill} />

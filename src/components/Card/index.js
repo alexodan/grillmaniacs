@@ -1,11 +1,14 @@
 import React from "react";
+import { StyledCard } from "./styles.css";
 
 const Card = ({ title, img }) => {
   return (
-    <div>
-      <span>{title}</span>
-      <img src={img} alt={title} />
-    </div>
+    <StyledCard>
+      <a href="#">
+        <img src={img} alt={title} />
+        <h3 className="emphasized">{title}</h3>
+      </a>
+    </StyledCard>
   );
 };
 

@@ -1,4 +1,5 @@
 import "@fontsource/quicksand";
+import "@fontsource/oleo-script";
 import styled from "styled-components";
 
 export const GlobalStyles = styled.div`
@@ -25,15 +26,26 @@ export const GlobalStyles = styled.div`
   h5,
   h6 {
     color: #222;
-    line-height: 1.1;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
     + * {
       margin-top: 0.5rem;
     }
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
   }
   strong {
     color: #222;
   }
   li {
     margin-top: 0.25rem;
+  }
+  .emphasized {
+    font-family: "Oleo Script", sans-serif;
+    letter-spacing: 1px;
   }
 `;

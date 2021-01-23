@@ -13,6 +13,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
+    "@fontsource/oleo-script": "^4.1.0",
     "@fontsource/quicksand": "^4.1.0",
     "bootstrap": "^4.5.3",
     "gatsby": "^2.31.0",
