@@ -1,11 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 import Card from "../Card";
-
-export const StyledGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-`;
+import { StyledGrid } from "./styles.css";
 
 const CardsGrid = ({ items }) => {
   return (
