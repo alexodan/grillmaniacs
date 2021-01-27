@@ -1,33 +1,57 @@
 export const amazonProducts = [
   {
     id: 1,
-    image: "",
-    url: ""
+    title: "Grill Chef 0566 - Barbacoa con ruedas (54,33 cm)",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/513SJJppB3L._AC_SL1010_.jpg",
+    price: 53.58,
+    url:
+      "https://www.amazon.es/Grill-Chef-0566-Barbacoa-ruedas/dp/B0002DF1V8?SubscriptionId=AKIAI6T22BK62VOQUJSA&tag=barbacoas0f-21"
   },
   {
     id: 2,
-    image: "",
-    url: ""
+    title: "Grill Chef 0566 - Barbacoa con ruedas (54,33 cm)",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/513SJJppB3L._AC_SL1010_.jpg",
+    price: 53.58,
+    url:
+      "https://www.amazon.es/Grill-Chef-0566-Barbacoa-ruedas/dp/B0002DF1V8?SubscriptionId=AKIAI6T22BK62VOQUJSA&tag=barbacoas0f-21"
   },
   {
     id: 3,
-    image: "",
-    url: ""
+    title: "Grill Chef 0566 - Barbacoa con ruedas (54,33 cm)",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/513SJJppB3L._AC_SL1010_.jpg",
+    price: 53.58,
+    url:
+      "https://www.amazon.es/Grill-Chef-0566-Barbacoa-ruedas/dp/B0002DF1V8?SubscriptionId=AKIAI6T22BK62VOQUJSA&tag=barbacoas0f-21"
   },
   {
     id: 4,
-    image: "",
-    url: ""
+    title: "Grill Chef 0566 - Barbacoa con ruedas (54,33 cm)",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/513SJJppB3L._AC_SL1010_.jpg",
+    price: 53.58,
+    url:
+      "https://www.amazon.es/Grill-Chef-0566-Barbacoa-ruedas/dp/B0002DF1V8?SubscriptionId=AKIAI6T22BK62VOQUJSA&tag=barbacoas0f-21"
   },
   {
     id: 5,
-    image: "",
-    url: ""
+    title: "Grill Chef 0566 - Barbacoa con ruedas (54,33 cm)",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/513SJJppB3L._AC_SL1010_.jpg",
+    price: 53.58,
+    url:
+      "https://www.amazon.es/Grill-Chef-0566-Barbacoa-ruedas/dp/B0002DF1V8?SubscriptionId=AKIAI6T22BK62VOQUJSA&tag=barbacoas0f-21"
   },
   {
     id: 6,
-    image: "",
-    url: ""
+    title: "Grill Chef 0566 - Barbacoa con ruedas (54,33 cm)",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/513SJJppB3L._AC_SL1010_.jpg",
+    price: 53.58,
+    url:
+      "https://www.amazon.es/Grill-Chef-0566-Barbacoa-ruedas/dp/B0002DF1V8?SubscriptionId=AKIAI6T22BK62VOQUJSA&tag=barbacoas0f-21"
   }
 ];
 
