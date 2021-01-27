@@ -6,7 +6,7 @@ const ProductGallery = ({ products }) => {
   return (
     <StyledGrid>
       {products.map(p => (
-        <ProductCard product={p} />
+        <ProductCard key={p.id} product={p} />
       ))}
     </StyledGrid>
   );

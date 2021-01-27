@@ -4,7 +4,7 @@ import { StyledCard } from "./styles.css";
 const Card = ({ title, img }) => {
   return (
     <StyledCard>
-      <a href="#">
+      <a href="#somewhere">
         <img src={img} alt={title} />
         <h3 className="emphasized">{title}</h3>
       </a>
