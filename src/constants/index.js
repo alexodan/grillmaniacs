@@ -102,3 +102,42 @@ export const bestGrills2020 = [
     url: "some-url"
   }
 ];
+
+export const categories = [
+  {
+    url: "/",
+    image:
+      "https://mondebarbecues.com/wp-content/uploads/shutterstock-146217797-e1527754711965-390x200.jpg",
+    title: "Barbacoas portátiles"
+  },
+  {
+    url: "/",
+    image:
+      "https://para-jardin.top/wp-content/uploads/2018/12/comprar-barbacoas-portatiles.png",
+    title: "Barbacoa de carbón"
+  },
+  {
+    url: "/",
+    image:
+      "https://mondebarbecues.com/wp-content/uploads/shutterstock-146217797-e1527754711965-390x200.jpg",
+    title: "Barbacoa de carbón"
+  },
+  {
+    url: "/",
+    image:
+      "https://para-jardin.top/wp-content/uploads/2018/12/comprar-barbacoas-portatiles.png",
+    title: "Barbacoas de obra"
+  },
+  {
+    url: "/",
+    image:
+      "https://mondebarbecues.com/wp-content/uploads/shutterstock-146217797-e1527754711965-390x200.jpg",
+    title: "Barbacoa de obra"
+  },
+  {
+    url: "/",
+    image:
+      "https://para-jardin.top/wp-content/uploads/2018/12/comprar-barbacoas-portatiles.png",
+    title: "Barbacoa de piedra"
+  }
+];
