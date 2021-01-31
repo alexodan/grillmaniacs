@@ -141,3 +141,8 @@ export const categories = [
     title: "Barbacoa de piedra"
   }
 ];
+
+export const entry = {
+  img:
+    "https://thebestbarbecues.com/wp-content/uploads/2018/08/Types-and-models-of-barbecue-Pros-and-Cons-1024x491.jpg"
+};
