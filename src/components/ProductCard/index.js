@@ -5,13 +5,14 @@ import {
   StyledProductCard,
   StyledTitle
 } from "./styles.css";
+import { images } from "../../images";
 
 const ProductCard = ({ product }) => {
   const { title, image, price, url } = product;
 
   return (
     <StyledProductCard href={url}>
-      <img src={image} alt={title} />
+      <img src={images[image]} alt={title} />
       <StyledTitle>
         <span>{title}</span>
       </StyledTitle>

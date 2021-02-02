@@ -4,7 +4,8 @@ import {
   bestGrills2020,
   amazonProducts,
   categories,
-  entry
+  entry,
+  barbecueGuides
 } from "../constants";
 import TextContainer from "../components/TextContainer";
 import CardsGrid from "../components/CardsGrid";
@@ -80,5 +81,8 @@ export default () => (
       </p>
     </BlogPostEntry>
     {/*  */}
+    <TextContainer title="Guías para que te conviertas en un experto de la barbacoa:">
+      <CardsGrid items={barbecueGuides} />
+    </TextContainer>
   </main>
 );

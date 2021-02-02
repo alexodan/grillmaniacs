@@ -1,5 +1,6 @@
 import React from "react";
 import { StyledGrid } from "./styles.css";
+import { images } from "../../images";
 
 const Grid = ({ cards }) => {
   return (
@@ -7,7 +8,7 @@ const Grid = ({ cards }) => {
       {cards.map(({ url, image, title }) => (
         <div key={url}>
           <a href={url}>
-            <img src={image} alt={title} />
+            <img src={images[image]} alt={title} />
             <span className="emphasized">{title}</span>
           </a>
         </div>
