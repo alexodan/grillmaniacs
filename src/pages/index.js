@@ -46,7 +46,7 @@ export default () => (
         Puedes encontrar la barbacoa que necesitas según los siguientes
         criterios:
       </p>
-      <img src={entry.img} />
+      <img src={entry.img} alt="Parilla" />
       <ul>
         <li>
           Según su combustible, como el gas, la madera o leña y el carbón. Sin
@@ -79,5 +79,6 @@ export default () => (
         nombre y con la que compartirás tantos buenos momentos ¡y comilonas!
       </p>
     </BlogPostEntry>
+    {/*  */}
   </main>
 );

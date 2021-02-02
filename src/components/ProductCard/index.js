@@ -7,10 +7,10 @@ import {
 } from "./styles.css";
 
 const ProductCard = ({ product }) => {
-  const { id, title, image, price, url } = product;
-  console.log(id, url, image);
+  const { title, image, price, url } = product;
+
   return (
-    <StyledProductCard href="https://www.amazon.com">
+    <StyledProductCard href={url}>
       <img src={image} alt={title} />
       <StyledTitle>
         <span>{title}</span>
